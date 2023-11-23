@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="appCal">
+        
+        <form name="calculator">
+            <input type="textField" name="displayPanel" value="0" autocomplete="off" readonly>
+            <br>
+            <input type="reset" value="AC" class="reset"> 
+            <input type="button" value="(" onclick="fillDisplay(this.value)" class="open">
+            <input type="button" value=")" onclick="fillDisplay(this.value)" class="close">
+            <input type="button" value="/" onclick="fillDisplay(this.value)" class="orange">
+            <br>
+            <input type="button" value="7" onclick="fillDisplay(this.value)" class="gray">
+            <input type="button" value="8" onclick="fillDisplay(this.value)" class="gray">
+            <input type="button" value="9" onclick="fillDisplay(this.value)" class="gray">
+            <input type="button" value="X" onclick="fillDisplay('*')" class="orange">
+            <br>
+            <input type="button" value="4" onclick="fillDisplay(this.value)" class="gray">
+            <input type="button" value="5" onclick="fillDisplay(this.value)" class="gray">
+            <input type="button" value="6" onclick="fillDisplay(this.value)" class="gray">
+            <input type="button" value="-" onclick="fillDisplay(this.value)" class="orange">
+            <br>
+            <input type="button" value="1" onclick="fillDisplay(this.value)" class="gray">
+            <input type="button" value="2" onclick="fillDisplay(this.value)" class="gray">
+            <input type="button" value="3" onclick="fillDisplay(this.value)" class="gray">
+            <input type="button" value="+" onclick="fillDisplay(this.value)" class="orange">
+            <br>
+            <input type="button" value="0" onclick="fillDisplay(this.value)" class="gray">
+            <input type="button" value="." onclick="fillDisplay(this.value)" class="orange">
+            <input type="button" value="%" onclick="fillDisplay(this.value)" class="orange">
+            <input type="button" value="=" onclick="doOperation()" class="orange">
+        </form>
+    </div>
+<script src="main.js"></script>    
+</body>
+</html>

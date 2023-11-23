@@ -1,0 +1,69 @@
+#appCal {
+    height: 550px;
+    width: 300px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+#appCal form {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#appCal input[type=textfield] {
+    height: 25%;
+    width: 90%;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+
+#appCal input[type=button], input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+
+.orange {
+    background-color: rgb(253,149,3);
+    color: white;
+}
+
+#appCal .orange:active{
+    background-color: white;
+}
+
+.gray {
+    background-color: rgb(51,51,51);
+    color: white !important;
+}
+
+#appCal .gray:active {
+background-color: white
+}
+
+.reset:active {
+    background-color: lightcoral;
+}
+
+.open:active {
+    background-color: lightslategray;
+}
+
+.close:active {
+    background-color: lightslategray;
+}
