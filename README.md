@@ -14,6 +14,12 @@ Se han creado dos versiones para poner en práctica las diferentes tecnologías 
 </div>
 
 <div>
+<h1>Versión 1 y 2 desplegadaa en Vercel</h1>
+<a href= "https://calculadora1-blond.vercel.app/">Calculadora 1</a>
+<a href= "https://proyecto-calculadora-three.vercel.app/">Calculadora 2</a>
+</div>
+
+<div>
 <h1>Cómo instalarlo</h1>
 <p> Clonar un repositorio de GitHub es un proceso sencillo que puedes realizar desde la línea de comandos utilizando Git. Aquí te muestro los pasos básicos para clonar un repositorio:
 
