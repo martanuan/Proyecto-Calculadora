@@ -2,12 +2,6 @@ body {
     background: linear-gradient(80deg, blue, pink)
 }
 
-h1{
-    font-family:'Roboto', sans-serif;
-    font-size: 35px;
-    text-align: center;
-    color: white;
-}
 #appCal {
     height: 550px;
     width: 300px;
