@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background-color: whitesmoke;
+    background-color: lightpink;
     display: grid;
     place-items: center;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .btn {
-    background-color: gray;
+    background-color: purple;
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -48,19 +48,19 @@ body {
     cursor: pointer;
 }
 
-.btnorange {
-    background-color:rgb(253,149,3) ;
+.btnblue {
+    background-color:lightblue ;
     border-radius: 15%;
     font-size: 20px;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: lightslategrey
+    background-color: plum;
 }
 
-.btnorange:hover {
-    background-color: orange
+.btnblue:hover {
+    background-color: lightseagreen
 }
 
 #delete:hover {

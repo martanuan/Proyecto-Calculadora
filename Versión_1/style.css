@@ -1,14 +1,25 @@
+body {
+    background: linear-gradient(80deg, blue, pink)
+}
+
+h1{
+    font-family:'Roboto', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
 #appCal {
     height: 550px;
     width: 300px;
-    border: solid 1px black;
+    border: solid 2px black;
     border-radius: 5px;
+    margin-left: 39%;
 }
 
 #appCal form {
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: pink;
 }
 
 #appCal input[type=textfield] {
@@ -16,11 +27,11 @@
     width: 90%;
     cursor: default;
     font-family: 'Roboto', sans-serif;
-    background-color: black;
-    color: white;
+    background-color: lightgrey;
+    color: black;
     padding: 15px;
     text-align: right;
-    font-size: 50px;
+    font-size: 60px;
     border: 0;
     outline: none;
 }
@@ -34,36 +45,41 @@
     color: black;
     padding: 18px;
     margin: 3px;
+    margin-bottom: 6px;
     border: 0;
-    border-radius: 100%;
+    border-radius: 20%;
 }
 
-.orange {
-    background-color: rgb(253,149,3);
+.blue {
+    background-color: rgb(140, 229, 216);
     color: white;
 }
 
-#appCal .orange:active{
-    background-color: white;
+#appCal .blue:hover{
+    background-color: lightseagreen;
 }
 
-.gray {
-    background-color: rgb(51,51,51);
-    color: white !important;
+.purple {
+    background-color: rgb(198, 164, 237);
+    color: black !important;
 }
 
-#appCal .gray:active {
-background-color: white
+#appCal .purple:hover {
+background-color: plum
 }
 
-.reset:active {
+.reset:hover {
     background-color: lightcoral;
 }
 
-.open:active {
-    background-color: lightslategray;
+.open:hover {
+    background-color: rgb(232, 232, 142);
 }
 
-.close:active {
-    background-color: lightslategray;
+.close:hover {
+    background-color: rgb(232, 232, 142);
+}
+
+.equal:hover {
+    background-color: greenyellow !important;
 }
