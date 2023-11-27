@@ -1,6 +1,6 @@
 // Función que nos permite rellenar la pantalla
 // document.calculator.displayPanel.value (es lo que se muestra en la pantalla)
-//Añado
+
 
 function fillDisplay(inputvalue) {
     //Verificamos si la pantalla tiene un '0'. En caso afirmativo vaciamos la pantalla (cadena vacía '')

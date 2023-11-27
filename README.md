@@ -14,7 +14,7 @@ Se han creado dos versiones para poner en práctica las diferentes tecnologías 
 </div>
 
 <div>
-<h1>Versión 1 y 2 desplegadaa en Vercel</h1>
+<h1>Versión 1 y 2 desplegada en Vercel</h1>
 <a href= "https://calculadora1-blond.vercel.app/">Calculadora 1</a>
 <a href= "https://proyecto-calculadora-three.vercel.app/">Calculadora 2</a>
 </div>
